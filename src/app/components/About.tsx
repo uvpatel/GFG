@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-
+import Image from "next/image"
 export default function About() {
   return (
     <section id="About" className="py-16 bg-gray-50 dark:bg-gray-900">
@@ -8,7 +8,7 @@ export default function About() {
         
         {/* Image / Illustration */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <img
+          <Image
             src="https://gfgbvm.github.io/gfgweb/gfglogo.png"
             alt="About GFG"
             className="w-80 h-auto rounded-lg shadow-lg object-cover"
