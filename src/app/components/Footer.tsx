@@ -1,7 +1,6 @@
 // src/components/Footer.tsx
 import React from "react";
 import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
-import GFGLogo from "@/../public/GFG.jpg"; 
 
 const Footer: React.FC = () => {
   return (
