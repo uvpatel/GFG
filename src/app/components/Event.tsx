@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Clock } from "lucide-react";
-
+import Image from "next/image";
 interface EventProps {
   title?: string;
   description?: string;
@@ -36,7 +36,7 @@ const Event: React.FC<EventProps> = ({
                 key={idx}
                 className="overflow-hidden rounded-lg shadow-lg hover:scale-105 transform transition duration-300"
               >
-                <img
+                <Image
                   src={img}
                   alt={`Event Image ${idx + 1}`}
                   className="w-full h-64 object-cover"
