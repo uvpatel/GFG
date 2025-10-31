@@ -1,17 +1,9 @@
-import Footer from "@/app/components/Footer"
-import { Navbar } from "@/app/components/Navbar";
-// import Hero from "@/app/components/Hero"
-import MemberCard from "@/app/components/Team";
-import Event from "@/app/components/Event";
-import About from "./components/About";
-import Contact from "./components/Contact";
-export default function Home() {
-  const members = [
-    {
+// teamMembers.ts
+export const teamMembers = [
+  {
     name: "Urvil Patel",
     role: "AI Engineer & Developer",
-    description:
-      "Passionate about AI, ML, and web development. Building intelligent systems that make a difference.",
+    description: "Passionate about AI, ML, and web development. Building intelligent systems that make a difference.",
     image: "/team/urvil.jpg",
     linkedin: "https://linkedin.com/in/urvilpatel",
     instagram: "https://instagram.com/urvil.codes",
@@ -21,8 +13,7 @@ export default function Home() {
   {
     name: "Neha Sharma",
     role: "Frontend Developer",
-    description:
-      "Design-focused developer crafting smooth and responsive UIs using React and Tailwind.",
+    description: "Design-focused developer crafting smooth and responsive UIs using React and Tailwind.",
     image: "/team/neha.jpg",
     linkedin: "https://linkedin.com/in/nehasharma",
     instagram: "https://instagram.com/neha.ui",
@@ -31,8 +22,7 @@ export default function Home() {
   {
     name: "Ravi Mehta",
     role: "Backend Developer",
-    description:
-      "Server-side problem solver who loves Node.js, Express, and database design.",
+    description: "Server-side problem solver who loves Node.js, Express, and database design.",
     image: "/team/ravi.jpg",
     linkedin: "https://linkedin.com/in/ravimehta",
     github: "https://github.com/ravimehta",
@@ -40,8 +30,7 @@ export default function Home() {
   {
     name: "Priya Singh",
     role: "UI/UX Designer",
-    description:
-      "Turns ideas into intuitive and aesthetic designs. Obsessed with details and usability.",
+    description: "Turns ideas into intuitive and aesthetic designs. Obsessed with details and usability.",
     image: "/team/priya.jpg",
     instagram: "https://instagram.com/priya.designs",
     linkedin: "https://linkedin.com/in/priyasingh",
@@ -49,8 +38,7 @@ export default function Home() {
   {
     name: "Amit Verma",
     role: "Data Scientist",
-    description:
-      "Transforms raw data into actionable insights using Python, Pandas, and ML models.",
+    description: "Transforms raw data into actionable insights using Python, Pandas, and ML models.",
     image: "/team/amit.jpg",
     linkedin: "https://linkedin.com/in/amitverma",
     github: "https://github.com/amitvdata",
@@ -58,16 +46,14 @@ export default function Home() {
   {
     name: "Simran Kaur",
     role: "Project Manager",
-    description:
-      "Coordinates the chaos. Keeps the team aligned, motivated, and on schedule.",
+    description: "Coordinates the chaos. Keeps the team aligned, motivated, and on schedule.",
     image: "/team/simran.jpg",
     linkedin: "https://linkedin.com/in/simrankaur",
   },
   {
     name: "Rahul Yadav",
     role: "Mobile App Developer",
-    description:
-      "Building seamless mobile experiences using React Native and Flutter.",
+    description: "Building seamless mobile experiences using React Native and Flutter.",
     image: "/team/rahul.jpg",
     github: "https://github.com/rahulyadav",
     linkedin: "https://linkedin.com/in/rahulyadav",
@@ -75,8 +61,7 @@ export default function Home() {
   {
     name: "Ananya Gupta",
     role: "Full Stack Developer",
-    description:
-      "End-to-end developer specializing in scalable Next.js applications and REST APIs.",
+    description: "End-to-end developer specializing in scalable Next.js applications and REST APIs.",
     image: "/team/ananya.jpg",
     linkedin: "https://linkedin.com/in/ananyagupta",
     github: "https://github.com/ananya-gupta",
@@ -84,16 +69,14 @@ export default function Home() {
   {
     name: "Arjun Reddy",
     role: "DevOps Engineer",
-    description:
-      "Automates everything. Loves CI/CD, Docker, and cloud-native architectures.",
+    description: "Automates everything. Loves CI/CD, Docker, and cloud-native architectures.",
     image: "/team/arjun.jpg",
     linkedin: "https://linkedin.com/in/arjunreddy",
   },
   {
     name: "Meera Nair",
     role: "AI Researcher",
-    description:
-      "Exploring the boundaries of deep learning, NLP, and computer vision.",
+    description: "Exploring the boundaries of deep learning, NLP, and computer vision.",
     image: "/team/meera.jpg",
     github: "https://github.com/meeran",
     linkedin: "https://linkedin.com/in/meeranair",
@@ -101,8 +84,7 @@ export default function Home() {
   {
     name: "Karan Patel",
     role: "Cybersecurity Analyst",
-    description:
-      "Keeps systems safe from attacks and vulnerabilities. Ethical hacking enthusiast.",
+    description: "Keeps systems safe from attacks and vulnerabilities. Ethical hacking enthusiast.",
     image: "/team/karan.jpg",
     github: "https://github.com/karan-sec",
     linkedin: "https://linkedin.com/in/karanpatel",
@@ -110,8 +92,7 @@ export default function Home() {
   {
     name: "Isha Deshmukh",
     role: "Content Strategist",
-    description:
-      "Bridges tech and storytelling with clear, creative content strategies.",
+    description: "Bridges tech and storytelling with clear, creative content strategies.",
     image: "/team/isha.jpg",
     linkedin: "https://linkedin.com/in/ishadeshmukh",
   },
@@ -125,16 +106,14 @@ export default function Home() {
   {
     name: "Tanya Rao",
     role: "Marketing Lead",
-    description:
-      "Creates impactful campaigns that connect tech innovation to real people.",
+    description: "Creates impactful campaigns that connect tech innovation to real people.",
     image: "/team/tanya.jpg",
     instagram: "https://instagram.com/tanya.markets",
   },
   {
     name: "Deep Patel",
     role: "ML Engineer",
-    description:
-      "Loves experimenting with neural networks and optimizing ML pipelines.",
+    description: "Loves experimenting with neural networks and optimizing ML pipelines.",
     image: "/team/deep.jpg",
     github: "https://github.com/deeppatelml",
     linkedin: "https://linkedin.com/in/deeppatel",
@@ -142,37 +121,8 @@ export default function Home() {
   {
     name: "Nidhi Joshi",
     role: "Community Manager",
-    description:
-      "Builds strong communities and manages collaborations with enthusiasm.",
+    description: "Builds strong communities and manages collaborations with enthusiasm.",
     image: "/team/nidhi.jpg",
     linkedin: "https://linkedin.com/in/nidhijoshi",
   },
-  ];
-
-  return (
-    <div>
-
-      <Navbar />
-      <About />
-
-      <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
-        <Event />
-      </div>
-      <section id="Team" className="py-12 bg-green-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-3xl font-bold text-center text-green-800 mb-10">
-            Meet Our Team
-          </h1>
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {members.map((member) => (
-              <MemberCard key={member.name} {...member} />
-            ))}
-          </div>
-        </div>
-      </section>
-      <Contact />
-
-      <Footer />
-    </div>
-  );
-}
+];

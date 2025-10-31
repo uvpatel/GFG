@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Linkedin, Instagram, Github, Globe } from "lucide-react";
-
+import {teamMembers} from "@/app/data/teamMember"
 interface MemberCardProps {
   name: string;
   role: string;
@@ -37,6 +37,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
         ) : (
           <div className="text-green-700 text-4xl font-bold uppercase">
             {name[0]}
+            
           </div>
         )}
       </div>
