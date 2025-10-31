@@ -49,7 +49,7 @@ const Content = () => {
       
       <Hero />
 
-      {/* Optional overlay / grid effect */}
+      
       <div className="absolute inset-0 bg-grid-black/[0.05] dark:bg-grid-white/[0.1]" />
     </div>
   );

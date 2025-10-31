@@ -1,6 +1,5 @@
 import Footer from "@/app/components/Footer"
 import { Navbar } from "@/app/components/Navbar";
-// import Hero from "@/app/components/Hero"
 import MemberCard from "@/app/components/Team";
 import Event from "@/app/components/Event";
 import About from "./components/About";
@@ -152,10 +151,10 @@ export default function Home() {
 
   return (
     <div>
-
       <Navbar />
+      
       <About />
-
+            
       <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
         <Event />
       </div>

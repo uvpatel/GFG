@@ -9,12 +9,7 @@ const Footer: React.FC = () => {
         {/* About Section */}
         <div>
           <div className="flex items-center mb-4 space-x-2">
-            <Image
-              src="/GFG.jpg" // replace with your logo path
-              alt="GFG Logo"
-              fill
-              className="w-12 h-12 object-contain"
-            />
+            
             <span className="text-xl font-bold">GFG BVM</span>
           </div>
           <p className="text-sm leading-relaxed">

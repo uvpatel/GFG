@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Linkedin, Instagram, Github, Globe } from "lucide-react";
-import Image from "next/image";
+    
 interface MemberCardProps {
   name: string;
   role: string;
@@ -29,10 +29,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
       {/* Image */}
       <div className="w-full h-52 bg-green-50 flex justify-center items-center overflow-hidden">
         {image ? (
-          <Image
+          <img
             src={image}
             alt={name}
-            fill
             className="object-cover h-full w-full"
           />
         ) : (
