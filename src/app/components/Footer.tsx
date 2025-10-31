@@ -1,7 +1,7 @@
 // src/components/Footer.tsx
 import React from "react";
 import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
-
+import Image from "next/image";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-green-800 text-white py-10 px-6 md:px-16">
@@ -9,9 +9,10 @@ const Footer: React.FC = () => {
         {/* About Section */}
         <div>
           <div className="flex items-center mb-4 space-x-2">
-            <img
+            <Image
               src="/GFG.jpg" // replace with your logo path
               alt="GFG Logo"
+              fill
               className="w-12 h-12 object-contain"
             />
             <span className="text-xl font-bold">GFG BVM</span>
