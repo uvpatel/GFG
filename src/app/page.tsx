@@ -5,6 +5,7 @@ import MemberCard from "@/app/components/Team";
 import Event from "@/app/components/Event";
 import About from "./components/About";
 import Contact from "./components/Contact";
+
 export default function Home() {
   const members = [
     {

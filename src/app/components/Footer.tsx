@@ -1,6 +1,7 @@
 // src/components/Footer.tsx
 import React from "react";
 import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import GFGLogo from "@/../public/GFG.jpg"; 
 
 const Footer: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
         <div>
           <div className="flex items-center mb-4 space-x-2">
             <img
-              src="/gfg-logo.png" // replace with your logo path
+              src="/GFG.jpg" // replace with your logo path
               alt="GFG Logo"
               className="w-12 h-12 object-contain"
             />
