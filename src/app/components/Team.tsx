@@ -32,6 +32,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
           <Image
             src={image}
             alt={name}
+            fill
             className="object-cover h-full w-full"
           />
         ) : (

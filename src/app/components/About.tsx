@@ -9,8 +9,9 @@ export default function About() {
         {/* Image / Illustration */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <Image
-            src="https://gfgbvm.github.io/gfgweb/gfglogo.png"
+            src="/gfglogo.png"
             alt="About GFG"
+            fill
             className="w-80 h-auto rounded-lg shadow-lg object-cover"
           />
         </div>
