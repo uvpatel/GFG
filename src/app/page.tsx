@@ -38,6 +38,7 @@ export default function Home() {
     name: "Patel Arya",
     role: "Content Creator",
     image: "/team/Patel Arya_content creator.jpg",
+    linkedin: "https://www.linkedin.com/in/arya-patel-205aa0326/",
     instagram: "https://www.instagram.com/Arya_p_16/",
   },
   {
@@ -66,12 +67,14 @@ export default function Home() {
     name: "Dhanvi Upadhyay",
     role: "Outreach Specialist",
     image: "/team/Dhanvi.png",
+    linkedin: "https://www.linkedin.com/in/dhanvi-upadhyay-9305a736b/",
     instagram: "https://www.instagram.com/dhanvi_upadhyay/",
   },
   {
     name: "Pratibha Indravath",
     role: "Social Media Manager",
     image: "/team/Pratibha Indravath__Social Media Manager.png",
+    linkedin: "https://www.linkedin.com/in/pratibha-indravath-b5b51a33b/",
     instagram: "https://www.instagram.com/pratibha_indravath/",
   }
 ];
