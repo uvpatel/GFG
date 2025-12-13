@@ -17,9 +17,7 @@ export const metadata: Metadata = {
   description:
     "Join the GeeksforGeeks student chapter at BVM for an interactive workshop where you'll learn problem-solving techniques, practical coding patterns, and build portfolio-worthy projects. Open to all skill levels — bring your laptop and curiosity!",
   icons: {
-    icon: "/icon.png", 
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/favicon.ico"
   },
 };
 

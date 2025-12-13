@@ -10,11 +10,14 @@ export default function About() {
 
   return (
     <section id="About" className="py-20 bg-gray-50 dark:bg-gray-900">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-[#0F9D58] dark:text-[#34A853] text-center mb-12" id="About">
+          About Us
+        </h1>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 px-6 lg:px-8">
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="max-w-sm">
             <Image
-              src="/GFG.jpg"
+              src="/logo.jpg"
               alt="About GeeksforGeeks BVM"
               width={400}
               height={400}
@@ -29,8 +32,7 @@ export default function About() {
             About GeeksforGeeks BVM
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            GeeksforGeeks BVM is a student-driven community promoting coding
-            culture, technical knowledge, and problem-solving excellence.
+            Welcome to GeeksforGeeks STUDENT CHAPTER BVM At GFG Student Chapter BVM we are here to provide the coding culture for the students who are interested in Computer Science and other core technical competencies. We will provide you the opportunities to enhance your coding skills and take them to the next level.
           </p>
         </div>
       </div>

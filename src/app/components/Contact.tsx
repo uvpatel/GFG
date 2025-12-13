@@ -10,7 +10,7 @@ import {
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16 bg-gray-50 dark:bg-gray-900">
+    <section id="Contact" className="py-16 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-extrabold text-[#0F9D58] dark:text-[#34A853] mb-6">
           Contact Us
@@ -22,34 +22,32 @@ export default function Contact() {
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6">
           <a
-            href="#"
+            href="https://www.facebook.com/people/Gfgstudentchapter-Bvm/pfbid034ygBEqk3Szhs5q4AuEQLnbM3K4xqSeUaq6AvqAEZLdyPammWL2K1WiDuVjgtv4fyl/"
             className="text-gray-700 dark:text-gray-300 hover:text-[#0F9D58] dark:hover:text-[#34A853] transition"
+          target="_blank"
           >
             <IconBrandFacebook size={32} />
           </a>
           <a
-            href="#"
+            href="https://x.com/GfgBvm"
             className="text-gray-700 dark:text-gray-300 hover:text-[#0F9D58] dark:hover:text-[#34A853] transition"
+          target="_blank"
           >
             <IconBrandTwitter size={32} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/gfg-student-chapter-bvm-643736253/"
             className="text-gray-700 dark:text-gray-300 hover:text-[#0F9D58] dark:hover:text-[#34A853] transition"
+          target="_blank"
           >
             <IconBrandLinkedin size={32} />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/gfgbvm/"
+            target="_blank"
             className="text-gray-700 dark:text-gray-300 hover:text-[#0F9D58] dark:hover:text-[#34A853] transition"
           >
             <IconBrandInstagram size={32} />
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 dark:text-gray-300 hover:text-[#0F9D58] dark:hover:text-[#34A853] transition"
-          >
-            <IconBrandGithub size={32} />
           </a>
         </div>
 

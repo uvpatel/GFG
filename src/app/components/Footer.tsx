@@ -42,32 +42,27 @@ const Footer: React.FC = () => {
           <h3 className="font-semibold text-lg mb-3">Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
+              <a href="#Home" className="hover:text-green-300 transition-colors">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
+              <a href="#About" className="hover:text-green-300 transition-colors">
                 ABOUT US
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
+              <a href="#Event" className="hover:text-green-300 transition-colors">
                 EVENTS
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
+              <a href="#Team" className="hover:text-green-300 transition-colors">
                 TEAM
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
-                CERTIFICATE
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-green-300 transition-colors">
+              <a href="#Contact" className="hover:text-green-300 transition-colors">
                 CONTACT US
               </a>
             </li>
@@ -79,28 +74,28 @@ const Footer: React.FC = () => {
           <h3 className="font-semibold text-lg mb-3">Follow Us</h3>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/gfg-student-chapter-bvm-643736253/"
               className="p-2 rounded-full bg-green-700 hover:bg-green-600 transition-colors"
             >
               <Linkedin size={20} />
             </a>
             <a
-              href="#"
+              href="https://x.com/GfgBvm"
               className="p-2 rounded-full bg-green-700 hover:bg-green-600 transition-colors"
             >
               <Twitter size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/gfgbvm/"
+              className="p-2 rounded-full bg-green-700 hover:bg-green-600 transition-colors"
+            >
+            <Instagram size={20} />
+            </a>
+            <a
+              href="https://www.facebook.com/people/Gfgstudentchapter-Bvm/pfbid034ygBEqk3Szhs5q4AuEQLnbM3K4xqSeUaq6AvqAEZLdyPammWL2K1WiDuVjgtv4fyl/"
               className="p-2 rounded-full bg-green-700 hover:bg-green-600 transition-colors"
             >
               <Facebook size={20} />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-full bg-green-700 hover:bg-green-600 transition-colors"
-            >
-              <Instagram size={20} />
             </a>
           </div>
         </div>

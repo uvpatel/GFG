@@ -8,146 +8,73 @@ import Contact from "./components/Contact";
 export default function Home() {
   const members = [
     {
+    name: "Prof. Prachi Shah",
+    role: "Faculty Advisor",
+    image: "/team/Prachi Shah Mam.jpeg"
+  },
+  {
+    name: "Kavya Zinzuvadiya",
+    role: "Chairperson",
+    image: "/team/Kavya_Chairperson.jpg",
+    instagram: "https://www.instagram.com/kavya.z25/",
+    linkedin: "https://www.linkedin.com/in/kavya-zinzuvadiya-19340a2bb/",
+  },
+  {
+    name: "Vihaa Shah",
+    role: "Vice-Chairperson",
+    image: "/team/Vihaa_vicechair.jpg",
+    instagram: "https://www.instagram.com/viiiihaaaa/",
+    linkedin: "https://www.linkedin.com/in/vihaa-shah-98b71128a",
+  },
+  {
     name: "Urvil Patel",
-    role: "AI Engineer & Developer",
-    description:
-      "Passionate about AI, ML, and web development. Building intelligent systems that make a difference.",
-    image: "/team/urvil.jpg",
-    linkedin: "https://linkedin.com/in/urvilpatel",
-    instagram: "https://instagram.com/urvil.codes",
+    role: "Tech Manager",
+    image: "/team/uv.jpg",
+    linkedin: "https://www.linkedin.com/in/urvil-patel-6995a0320/",
     github: "https://github.com/uvpatel",
-    website: "https://urvil.dev",
+    website: "https://urvilpatel-portfolio.netlify.app/",
   },
   {
-    name: "Neha Sharma",
-    role: "Frontend Developer",
-    description:
-      "Design-focused developer crafting smooth and responsive UIs using React and Tailwind.",
-    image: "/team/neha.jpg",
-    linkedin: "https://linkedin.com/in/nehasharma",
-    instagram: "https://instagram.com/neha.ui",
-    github: "https://github.com/neha-sharma",
+    name: "Patel Arya",
+    role: "Content Creator",
+    image: "/team/Patel Arya_content creator.jpg",
+    instagram: "https://www.instagram.com/Arya_p_16/",
   },
   {
-    name: "Ravi Mehta",
-    role: "Backend Developer",
-    description:
-      "Server-side problem solver who loves Node.js, Express, and database design.",
-    image: "/team/ravi.jpg",
-    linkedin: "https://linkedin.com/in/ravimehta",
-    github: "https://github.com/ravimehta",
+    name: "Megh Patel",
+    role: "Graphics Superviser",
+    image: "/team/Megh Patel - Graphic Superviser.png",
+    linkedin: "https://www.linkedin.com/in/meghpatel007/",
+    instagram: "https://www.instagram.com/_meghpatel_007/",
+    github: "https://github.com/MeghPatel-007",
   },
   {
-    name: "Priya Singh",
-    role: "UI/UX Designer",
-    description:
-      "Turns ideas into intuitive and aesthetic designs. Obsessed with details and usability.",
-    image: "/team/priya.jpg",
-    instagram: "https://instagram.com/priya.designs",
-    linkedin: "https://linkedin.com/in/priyasingh",
+    name: "Parv Luhar",
+    role: "Event Coordinator",
+    image: "/team/ParvLuhar_eventCoordinator1.jpg",
+    linkedin: "https://www.linkedin.com/in/parvluhar2010/",
+    instagram: "https://www.instagram.com/parv_luhar20/",
   },
   {
-    name: "Amit Verma",
-    role: "Data Scientist",
-    description:
-      "Transforms raw data into actionable insights using Python, Pandas, and ML models.",
-    image: "/team/amit.jpg",
-    linkedin: "https://linkedin.com/in/amitverma",
-    github: "https://github.com/amitvdata",
+    name: "Jeet Vasoya",
+    role: "Marketing Coordinator",
+    image: "/team/Jeet Vasoya.png",
+    linkedin: "https://www.linkedin.com/in/jeet-vasoya-071397323/",
+    instagram: "https://www.instagram.com/j_d_vasoya_21/",
   },
   {
-    name: "Simran Kaur",
-    role: "Project Manager",
-    description:
-      "Coordinates the chaos. Keeps the team aligned, motivated, and on schedule.",
-    image: "/team/simran.jpg",
-    linkedin: "https://linkedin.com/in/simrankaur",
+    name: "Dhanvi Upadhyay",
+    role: "Outreach Specialist",
+    image: "/team/Dhanvi.png",
+    instagram: "https://www.instagram.com/dhanvi_upadhyay/",
   },
   {
-    name: "Rahul Yadav",
-    role: "Mobile App Developer",
-    description:
-      "Building seamless mobile experiences using React Native and Flutter.",
-    image: "/team/rahul.jpg",
-    github: "https://github.com/rahulyadav",
-    linkedin: "https://linkedin.com/in/rahulyadav",
+    name: "Pratibha Indravath",
+    role: "Social Media Manager",
+    image: "/team/Pratibha Indravath__Social Media Manager.png",
+    instagram: "https://www.instagram.com/pratibha_indravath/",
   },
-  {
-    name: "Ananya Gupta",
-    role: "Full Stack Developer",
-    description:
-      "End-to-end developer specializing in scalable Next.js applications and REST APIs.",
-    image: "/team/ananya.jpg",
-    linkedin: "https://linkedin.com/in/ananyagupta",
-    github: "https://github.com/ananya-gupta",
-  },
-  {
-    name: "Arjun Reddy",
-    role: "DevOps Engineer",
-    description:
-      "Automates everything. Loves CI/CD, Docker, and cloud-native architectures.",
-    image: "/team/arjun.jpg",
-    linkedin: "https://linkedin.com/in/arjunreddy",
-  },
-  {
-    name: "Meera Nair",
-    role: "AI Researcher",
-    description:
-      "Exploring the boundaries of deep learning, NLP, and computer vision.",
-    image: "/team/meera.jpg",
-    github: "https://github.com/meeran",
-    linkedin: "https://linkedin.com/in/meeranair",
-  },
-  {
-    name: "Karan Patel",
-    role: "Cybersecurity Analyst",
-    description:
-      "Keeps systems safe from attacks and vulnerabilities. Ethical hacking enthusiast.",
-    image: "/team/karan.jpg",
-    github: "https://github.com/karan-sec",
-    linkedin: "https://linkedin.com/in/karanpatel",
-  },
-  {
-    name: "Isha Deshmukh",
-    role: "Content Strategist",
-    description:
-      "Bridges tech and storytelling with clear, creative content strategies.",
-    image: "/team/isha.jpg",
-    linkedin: "https://linkedin.com/in/ishadeshmukh",
-  },
-  {
-    name: "Vikas Jain",
-    role: "QA Engineer",
-    description: "Ensures perfection by breaking things before users can.",
-    image: "/team/vikas.jpg",
-    linkedin: "https://linkedin.com/in/vikasjain",
-  },
-  {
-    name: "Tanya Rao",
-    role: "Marketing Lead",
-    description:
-      "Creates impactful campaigns that connect tech innovation to real people.",
-    image: "/team/tanya.jpg",
-    instagram: "https://instagram.com/tanya.markets",
-  },
-  {
-    name: "Deep Patel",
-    role: "ML Engineer",
-    description:
-      "Loves experimenting with neural networks and optimizing ML pipelines.",
-    image: "/team/deep.jpg",
-    github: "https://github.com/deeppatelml",
-    linkedin: "https://linkedin.com/in/deeppatel",
-  },
-  {
-    name: "Nidhi Joshi",
-    role: "Community Manager",
-    description:
-      "Builds strong communities and manages collaborations with enthusiasm.",
-    image: "/team/nidhi.jpg",
-    linkedin: "https://linkedin.com/in/nidhijoshi",
-  },
-  ];
+];
 
   return (
     <div>
@@ -160,7 +87,7 @@ export default function Home() {
       <section id="Team" className="py-12 bg-green-50">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-3xl font-bold text-center text-green-800 mb-10">
-            Meet Our Team
+            Meet Our Amazing Team
           </h1>
           <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {members.map((member) => (

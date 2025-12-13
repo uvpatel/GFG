@@ -2,11 +2,11 @@
 
 import React from "react";
 import { Linkedin, Instagram, Github, Globe } from "lucide-react";
-    
+import Image from "next/image";
+
 interface MemberCardProps {
   name: string;
   role: string;
-  description: string;
   image?: string;
   instagram?: string;
   linkedin?: string;
@@ -17,7 +17,6 @@ interface MemberCardProps {
 const MemberCard: React.FC<MemberCardProps> = ({
   name,
   role,
-  description,
   image,
   instagram,
   linkedin,
@@ -25,19 +24,21 @@ const MemberCard: React.FC<MemberCardProps> = ({
   website,
 }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg border border-green-200 hover:shadow-2xl transition-all duration-300 max-w-sm w-full overflow-hidden">
-      {/* Image */}
-      <div className="w-full h-52 bg-green-50 flex justify-center items-center overflow-hidden">
+    <div className="bg-white rounded-xl shadow-lg border border-green-200 hover:shadow-2xl transition-all duration-300 max-w-sm w-full overflow-hidden" id="Team">
+      {/* Image Container - Fixed with relative positioning */}
+      <div className="relative w-full h-52 bg-green-50 flex justify-center items-center overflow-hidden">
         {image ? (
-          <img
+          <Image
             src={image}
             alt={name}
-            className="object-cover h-full w-full"
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            priority={false}
           />
         ) : (
           <div className="text-green-700 text-4xl font-bold uppercase">
             {name[0]}
-            
           </div>
         )}
       </div>
@@ -49,10 +50,6 @@ const MemberCard: React.FC<MemberCardProps> = ({
           <p className="text-sm text-gray-600">{role}</p>
         </div>
 
-        <p className="text-gray-700 text-sm leading-relaxed">
-          {description}
-        </p>
-
         {/* Social Links */}
         <div className="flex space-x-4 mt-2">
           {linkedin && (
@@ -61,6 +58,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-green-100 text-green-700 rounded-full hover:bg-green-600 hover:text-white transition-colors"
+              aria-label={`${name}'s LinkedIn`}
             >
               <Linkedin size={20} />
             </a>
@@ -71,6 +69,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-green-100 text-green-700 rounded-full hover:bg-green-600 hover:text-white transition-colors"
+              aria-label={`${name}'s Instagram`}
             >
               <Instagram size={20} />
             </a>
@@ -81,6 +80,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-green-100 text-green-700 rounded-full hover:bg-green-600 hover:text-white transition-colors"
+              aria-label={`${name}'s GitHub`}
             >
               <Github size={20} />
             </a>
@@ -91,6 +91,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-green-100 text-green-700 rounded-full hover:bg-green-600 hover:text-white transition-colors"
+              aria-label={`${name}'s Website`}
             >
               <Globe size={20} />
             </a>
