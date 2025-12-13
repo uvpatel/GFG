@@ -1,7 +1,7 @@
 // src/components/Footer.tsx
 import React from "react";
 import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
-import Image from "next/image";
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-green-800 text-white py-10 px-6 md:px-16">

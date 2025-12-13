@@ -5,7 +5,6 @@ import {
   IconBrandTwitter, 
   IconBrandLinkedin, 
   IconBrandInstagram, 
-  IconBrandGithub 
 } from "@tabler/icons-react";
 
 export default function Contact() {
