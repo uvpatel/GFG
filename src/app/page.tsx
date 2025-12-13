@@ -73,7 +73,7 @@ export default function Home() {
     role: "Social Media Manager",
     image: "/team/Pratibha Indravath__Social Media Manager.png",
     instagram: "https://www.instagram.com/pratibha_indravath/",
-  },
+  }
 ];
 
   return (

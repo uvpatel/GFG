@@ -20,13 +20,12 @@ export default function Hero() {
       
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4">
         <h1 className="text-5xl md:text-6xl font-extrabold">
-          Welcome to GFG BVM
+          GeeksforGeeks Student Chapter BVM
         </h1>
         <p className="mt-4 text-lg md:text-xl">
           Empowering students with coding culture and technical excellence.
         </p>
 
-        
       </div>
     </div>
   );
