@@ -50,6 +50,13 @@ export default function Home() {
     github: "https://github.com/MeghPatel-007",
   },
   {
+    name: "Prachi Patel",
+    role: "Graphics Designer",
+    image: "/team/Prachi.jpeg",
+    linkedin: "https://www.linkedin.com/in/prachi-patel-000154325/",
+    instagram: "https://www.instagram.com/pra_chiiii1602/",
+  },
+  {
     name: "Parv Luhar",
     role: "Event Coordinator",
     image: "/team/ParvLuhar_eventCoordinator1.jpg",
@@ -76,7 +83,16 @@ export default function Home() {
     image: "/team/Pratibha Indravath__Social Media Manager.png",
     linkedin: "https://www.linkedin.com/in/pratibha-indravath-b5b51a33b/",
     instagram: "https://www.instagram.com/pratibha_indravath/",
-  }
+  },
+  {
+    name: "Jaydevsinh Mahida",
+    role: "Branch Representative Head",
+    image: "/team/Jaydevsinh Mahida_BR HEAD.jpg",
+    linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339/",
+    instagram: "https://www.instagram.com/jaydemahida13/",
+    github: "https://github.com/JaydevMahida",
+  },
+
 ];
 
   return (
