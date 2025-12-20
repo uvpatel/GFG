@@ -39,7 +39,7 @@ export function Navbar() {
 
   // Replace these with actual report URLs (e.g., PDFs) when available
   const reportsItems = [
-    { label: "Skill 101", url: "https://drive.google.com/drive/folders/1K2dBEfNDu-tym88BIAHsWogFiWtmX5KM" 
+    { label: "Skill 101", url: "https://drive.google.com/drive/folders/1K2dBEfNDu-tym88BIAHsWogFiWtmX5KM"} 
   ];
 
   return (
